@@ -298,16 +298,26 @@ const QupidApp = () => {
                           <br />
                           are you ready to dive into the future of relationships?
                         </p>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            navigate("/lab");
-                            setTimeout(() => window.scrollTo({ top: 0, behavior: "smooth" }), 50);
-                          }}
-                          className="liquid-cta mt-10 inline-flex items-center justify-center rounded-full bg-[linear-gradient(120deg,rgba(0,255,255,0.9),rgba(255,255,255,0.92),rgba(255,182,193,0.95))] px-8 py-3 text-xs font-semibold tracking-[0.32em] text-[#101027]"
-                        >
-                          enter the lab
-                        </button>
+                        <div className="mt-10 flex flex-col items-center gap-3">
+                          <button
+                            type="button"
+                            onClick={() => {
+                              navigate("/lab");
+                              setTimeout(() => window.scrollTo({ top: 0, behavior: "smooth" }), 50);
+                            }}
+                            className="liquid-cta inline-flex items-center justify-center rounded-full bg-[linear-gradient(120deg,rgba(0,255,255,0.9),rgba(255,255,255,0.92),rgba(255,182,193,0.95))] px-8 py-3 text-xs font-semibold tracking-[0.32em] text-[#101027]"
+                          >
+                            enter the lab
+                          </button>
+                          <a
+                            href="https://form.jotform.com/260442360762150"
+                            className="liquid-cta inline-flex items-center justify-center rounded-full bg-[linear-gradient(120deg,rgba(0,255,255,0.9),rgba(255,255,255,0.92),rgba(255,182,193,0.95))] px-8 py-3 text-xs font-semibold tracking-[0.32em] text-[#101027]"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            beta tester feedback form
+                          </a>
+                        </div>
                       </div>
                       <div className={`${neoGlassPanel} relative min-h-[240px] overflow-hidden rounded-[28px] sm:min-h-[320px]`}>
                         <div
