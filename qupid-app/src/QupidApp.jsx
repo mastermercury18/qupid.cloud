@@ -283,14 +283,14 @@ const QupidApp = () => {
             <div className="relative">
               <section ref={landingRef} className="space-y-6">
                 <section className="min-h-screen flex items-center justify-center">
-                  <div className={`${neoGlassPanel} card-reveal card-delay-1 w-full max-w-6xl min-h-[85vh] px-12 py-16 flex items-center md:px-16 md:py-20`}>
-                    <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+                  <div className={`${neoGlassPanel} card-reveal card-delay-1 w-full max-w-6xl min-h-[75vh] px-6 py-10 flex items-center sm:px-10 sm:py-12 md:min-h-[85vh] md:px-16 md:py-20`}>
+                    <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
                       <div className="text-left">
                         <p className="text-xs uppercase tracking-[0.4em] text-white/65">predict your situationship with quantum physics</p>
-                        <h1 className="mt-6 text-8xl font-semibold tracking-[0.08em] leading-[0.95] text-white md:text-6xl">
+                        <h1 className="mt-6 text-4xl font-semibold tracking-[0.08em] leading-[0.95] text-white sm:text-5xl md:text-6xl">
                           qupid.cloud
                         </h1>
-                        <p className="mt-8 max-w-[52ch] text-base leading-relaxed text-white/80 md:text-lg">
+                        <p className="mt-6 max-w-[52ch] text-base leading-relaxed text-white/80 md:mt-8 md:text-lg">
 
                           qupid runs your relationship through a time-dependent quantum engine. upload screenshots of your most
                           recent text convos, and we evolve the state forward to predict where it goes next.
@@ -309,7 +309,7 @@ const QupidApp = () => {
                           enter the lab
                         </button>
                       </div>
-                      <div className={`${neoGlassPanel} relative min-h-[320px] overflow-hidden rounded-[28px]`}>
+                      <div className={`${neoGlassPanel} relative min-h-[240px] overflow-hidden rounded-[28px] sm:min-h-[320px]`}>
                         <div
                           className="absolute inset-0 bg-cover bg-center opacity-90"
                           style={{ backgroundImage: `url(${logo})` }}
@@ -385,9 +385,9 @@ const QupidApp = () => {
                         </div>
                       </div>
                     </div>
-                    <div className={`${neoGlassPanel} card-reveal card-delay-4 mx-auto w-full max-w-5xl min-h-[700px] p-10`}>
+                    <div className={`${neoGlassPanel} card-reveal card-delay-4 mx-auto w-full max-w-5xl p-6 sm:p-8 md:min-h-[700px] md:p-10`}>
                       <p className="text-xs uppercase tracking-[0.28em] text-white/65">technical core</p>
-                      <div className="mt-4 space-y-4 text-sm leading-7 text-white/80">
+                      <div className="mt-4 space-y-4 text-xs leading-6 text-white/80 sm:text-sm sm:leading-7">
                         <p>
                           we model your relationship as a two-qubit quantum system with density matrix
                           {" $\\rho(t)$"} evolving under the floquet-markov-lindblad master equation:
