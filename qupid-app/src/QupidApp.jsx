@@ -317,6 +317,11 @@ const QupidApp = () => {
                           >
                             beta tester feedback form
                           </a>
+                          <p className="mb-3 text-xs uppercase tracking-[0.28em] text-white/65">
+                            <br></br>
+                            privacy note: qupid does not store or review your
+                            uploads.
+                          </p>
                         </div>
                       </div>
                       <div className={`${neoGlassPanel} relative min-h-[240px] overflow-hidden rounded-[28px] sm:min-h-[320px]`}>
@@ -506,6 +511,10 @@ const QupidApp = () => {
                   </p>
                   <p className="mt-1 text-xs text-white/60">
                     accepted formats: png, jpg, jpeg (up to 10 screenshots)
+                  </p>
+                  <p className="mt-2 text-xs text-white/60">
+                    privacy: uploads are processed automatically and are not stored by qupid; they are sent only to the configured
+                    analysis provider (e.g., gemini) to extract parameters.
                   </p>
                 </div>
                 <label className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/35 bg-white/18 px-4 py-2 text-xs tracking-[0.14em] text-white/85 shadow-[inset_0_1px_0_rgba(255,255,255,0.45)] transition hover:border-white/50">
