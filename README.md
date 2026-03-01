@@ -2,16 +2,11 @@
 
 Qupid is a full-stack app that runs a quantum-inspired relationship simulation. The Flask backend exposes simulation endpoints and serves a built React (Vite) frontend with a liquid-glass visual treatment.
 
-<img width="1345" height="729" alt="Screenshot 2026-02-16 at 1 11 30 PM" src="https://github.com/user-attachments/assets/1944ba76-3f9c-4e5d-93ed-e6fc8ff33ef6" />
-
-<img width="996" height="757" alt="Screenshot 2026-02-16 at 1 11 10 PM" src="https://github.com/user-attachments/assets/b62660cd-8195-49a6-9bd6-30c13054bbb2" />
-
-<img width="1197" height="749" alt="Screenshot 2026-02-16 at 1 14 35 PM" src="https://github.com/user-attachments/assets/12e21b5a-2662-4340-81da-08b1a68f054c" />
-
-<img width="1117" height="743" alt="Screenshot 2026-02-16 at 1 14 11 PM" src="https://github.com/user-attachments/assets/f8ee0d01-cc07-4feb-9e4f-0ed49904361f" />
-
-<img width="1147" height="745" alt="Screenshot 2026-02-16 at 1 16 17 PM" src="https://github.com/user-attachments/assets/b8df441a-8019-4693-8be5-9b7464adbde7" />
-
+![Home Page Image](home.png)
+![Math Explanation Image](home-explanation.png)
+![Extracted Parameters Image](parameters.png)
+![Graph Image](graph.png)
+![Narrative Trajectory Image](trajectory.png)
 
 ## Quantum Backend Features
 
