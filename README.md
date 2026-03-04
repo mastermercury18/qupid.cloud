@@ -1,4 +1,4 @@
-# qupid - dating made quantum 💘
+# qupid - open quantum system-inspired relationship forecasting engine 💘
 
 Qupid is a full-stack app that runs a quantum-inspired relationship simulation. The Flask backend exposes simulation endpoints and serves a built React (Vite) frontend with a liquid-glass visual treatment.
 
